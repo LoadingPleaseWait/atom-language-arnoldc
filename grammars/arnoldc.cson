@@ -1,0 +1,40 @@
+'scopeName': 'source.arnoldc'
+'name': 'ArnoldC'
+'fileTypes': ['arnoldc']
+'patterns': [
+  {
+    'comment': 'Numerals'
+    'match': '\\s{1,}[-0-9]+'
+    'name': 'constant.numeric.arnoldc'
+  }
+  {
+    'comment': 'Constants'
+    'match': '(@I LIED|@NO PROBLEMO|NO PROBLEMO|I LIED)'
+    'name': 'constant.language.arnoldc'
+  }
+  {
+    'comment': 'String'
+    'name': 'string.quoted.arnoldc'
+    'match': '"([^"]*)"'
+  }
+  {
+    'comment': 'Operators'
+    'name': 'keyword.operator.arnoldc'
+    'match': '(GET UP|GET DOWN|YOU\'RE FIRED|HE HAD TO SPLIT|I LET HIM GO|YOU ARE NOT YOU YOU ARE ME|LET OFF SOME STEAM BENNET|CONSIDER THAT A DIVORCE|KNOCK KNOCK|HERE IS MY INVITATION|DO IT NOW|GET YOUR ASS TO MARS)'
+  }
+  {
+    'comment': 'Loops'
+    'name': 'keyword.control.arnoldc'
+    'match': '(BECAUSE I\'M GOING TO SAY PLEASE|BULLSHIT|YOU HAVE NO RESPECT FOR LOGIC|STICK AROUND|CHILL)'
+  }
+  {
+    'comment': 'Support'
+    'name': 'support.function.arnoldc'
+    'match': '(GET TO THE CHOPPER|ENOUGH TALK|TALK TO THE HAND|HEY CHRISTMAS TREE|YOU SET US UP|I NEED YOUR CLOTHES YOUR BOOTS AND YOUR MOTORCYCLE|I\'LL BE BACK)'
+  }
+  {
+    'comment': 'Other'
+    'name': 'entity.name.function.arnoldc'
+    'match': '(IT\'S SHOWTIME|YOU HAVE BEEN TERMINATED|LISTEN TO ME VERY CAREFULLY|GIVE THESE PEOPLE AIR|HASTA LA VISTA, BABY)'
+  }
+]
